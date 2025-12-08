@@ -6,6 +6,5 @@ public class ServerJWS {
         String url="http://0.0.0.0:8686/";
         Endpoint.publish(url, new BankAccountService());
         System.out.println("Web service déployé sur "+url);
-
     }
 }
